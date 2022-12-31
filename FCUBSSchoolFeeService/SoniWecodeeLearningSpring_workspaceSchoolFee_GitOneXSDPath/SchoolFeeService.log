@@ -1,0 +1,953 @@
+2022-12-08 13:58:16,785 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests], using SpringBootContextLoader
+2022-12-08 13:58:16,792 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-12-08 13:58:16,793 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests]: FcubsSchoolFeeServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-12-08 13:58:16,914 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication for test class com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests
+2022-12-08 13:58:17,039 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-12-08 13:58:17,061 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@93081b6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cd1e646, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7ba8c737, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1890516e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@15a04efb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16c069df, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2bec854f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31edaa7d, org.springframework.test.context.event.EventPublishingTestExecutionListener@26adfd2d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3336e6b6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7c3fdb62, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@205d38da, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6950ed69, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6dd7b5a3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6f3187b0]
+2022-12-08 13:58:17,390 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests [main] Starting FcubsSchoolFeeServiceApplicationTests using Java 1.8.0_211 on wecodee with PID 24536 (started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 13:58:17,391 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 13:58:18,072 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 13:58:18,131 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+2022-12-08 13:58:18,404 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$bf8e5a7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 13:58:18,404 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6234c288] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 13:58:18,449 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 13:58:18,876 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 13:58:18,934 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 13:58:19,115 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 13:58:19,633 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 13:58:20,721 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 13:58:20,766 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 13:58:21,558 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 13:58:21,570 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 13:58:22,499 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 13:58:23,176 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests [main] Started FcubsSchoolFeeServiceApplicationTests in 6.07 seconds (JVM running for 7.161)
+2022-12-08 13:58:23,333 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 13:58:23,336 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-12-08 13:58:23,615 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-12-08 13:58:45,555 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 20504 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 13:58:45,557 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 13:58:46,082 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 13:58:46,133 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2022-12-08 13:58:46,328 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 13:58:46,329 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 13:58:46,358 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 13:58:46,615 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 13:58:46,624 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 13:58:46,625 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 13:58:46,625 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 13:58:46,756 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 13:58:46,757 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1164 ms
+2022-12-08 13:58:46,980 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 13:58:47,021 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 13:58:47,155 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 13:58:47,234 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 13:58:48,204 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 13:58:48,231 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 13:58:48,871 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 13:58:48,880 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 13:58:49,413 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 13:58:49,695 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8880"]
+2022-12-08 13:58:49,716 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8880 (http) with context path ''
+2022-12-08 13:58:49,725 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Started FcubsSchoolFeeServiceApplication in 4.478 seconds (JVM running for 5.475)
+2022-12-08 14:06:15,463 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m57s66ms561µs800ns).
+2022-12-08 14:06:42,972 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
+2022-12-08 14:06:43,211 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(16)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:06:43,211 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(16)-127.0.0.1] Stopping service [Tomcat]
+2022-12-08 14:06:43,219 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(16)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:06:43,222 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(16)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:06:43,227 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(16)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:06:43,229 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:06:43,505 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-12-08 14:06:52,875 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 21948 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 14:06:52,879 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 14:06:53,409 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 14:06:53,460 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2022-12-08 14:06:53,657 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:06:53,658 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:06:53,688 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 14:06:53,941 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 14:06:53,950 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:06:53,950 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 14:06:53,951 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 14:06:54,078 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 14:06:54,079 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1162 ms
+2022-12-08 14:06:54,304 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 14:06:54,343 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 14:06:54,475 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 14:06:54,554 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 14:06:55,814 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 14:06:55,842 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 14:06:56,502 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 14:06:56,510 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:06:57,037 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 14:06:57,316 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:06:57,332 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8880 (http) with context path ''
+2022-12-08 14:06:57,340 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Started FcubsSchoolFeeServiceApplication in 4.772 seconds (JVM running for 5.721)
+2022-12-08 14:07:35,708 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2022-12-08 14:07:35,950 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(9)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:07:35,950 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(9)-127.0.0.1] Stopping service [Tomcat]
+2022-12-08 14:07:35,955 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(9)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:07:35,960 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(9)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:07:35,971 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(9)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:07:35,975 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:07:36,250 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-12-08 14:07:44,377 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 15960 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 14:07:44,380 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 14:07:44,908 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 14:07:44,956 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2022-12-08 14:07:45,149 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:07:45,150 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:07:45,180 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 14:07:45,428 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 14:07:45,436 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:07:45,437 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 14:07:45,437 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 14:07:45,561 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 14:07:45,561 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1143 ms
+2022-12-08 14:07:45,787 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 14:07:45,827 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 14:07:45,962 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 14:07:46,042 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 14:07:46,979 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 14:07:47,006 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 14:07:47,645 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 14:07:47,654 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:07:48,197 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 14:07:48,473 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:07:48,488 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8880 (http) with context path ''
+2022-12-08 14:07:48,498 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Started FcubsSchoolFeeServiceApplication in 4.423 seconds (JVM running for 5.386)
+2022-12-08 14:08:15,710 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-12-08 14:08:15,948 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(10)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:08:15,948 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(10)-127.0.0.1] Stopping service [Tomcat]
+2022-12-08 14:08:15,953 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(10)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:08:15,957 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(10)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:08:15,962 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:08:15,964 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:08:16,221 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-12-08 14:08:24,121 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 23840 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 14:08:24,123 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 14:08:24,655 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 14:08:24,704 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2022-12-08 14:08:24,896 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:08:24,897 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:08:24,927 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 14:08:25,179 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 14:08:25,187 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:08:25,188 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 14:08:25,188 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 14:08:25,313 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 14:08:25,313 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1154 ms
+2022-12-08 14:08:25,533 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 14:08:25,572 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 14:08:25,705 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 14:08:25,782 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 14:08:26,718 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 14:08:26,745 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 14:08:27,392 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 14:08:27,399 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:08:27,866 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+2022-12-08 14:08:27,866 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:08:27,869 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:08:28,067 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 14:08:28,069 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 14:08:28,080 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 14:08:28,098 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 14:09:07,499 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 6888 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 14:09:07,501 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 14:09:08,021 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 14:09:08,073 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2022-12-08 14:09:08,266 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:09:08,266 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:09:08,299 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 14:09:08,543 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 14:09:08,552 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:09:08,552 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 14:09:08,553 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 14:09:08,682 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 14:09:08,682 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1146 ms
+2022-12-08 14:09:08,910 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 14:09:08,949 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 14:09:09,078 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 14:09:09,157 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 14:09:10,219 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 14:09:10,245 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 14:09:10,905 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 14:09:10,913 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:09:11,390 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+2022-12-08 14:09:11,391 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:09:11,394 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:09:11,543 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 14:09:11,545 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 14:09:11,556 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 14:09:11,575 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 14:10:43,583 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 4848 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 14:10:43,586 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 14:10:44,122 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 14:10:44,170 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2022-12-08 14:10:44,371 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:10:44,372 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:10:44,406 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 14:10:44,651 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 14:10:44,660 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:10:44,661 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 14:10:44,661 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 14:10:44,806 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 14:10:44,806 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1185 ms
+2022-12-08 14:10:45,025 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 14:10:45,063 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 14:10:45,193 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 14:10:45,273 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 14:10:46,216 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 14:10:46,243 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 14:10:46,894 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 14:10:46,902 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:10:47,363 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+2022-12-08 14:10:47,365 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:10:47,367 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:10:47,528 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 14:10:47,529 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 14:10:47,540 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 14:10:47,558 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 14:11:32,755 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 24876 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 14:11:32,758 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 14:11:33,287 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 14:11:33,338 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2022-12-08 14:11:33,536 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:11:33,537 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:11:33,566 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 14:11:33,805 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 14:11:33,813 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:11:33,813 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 14:11:33,813 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 14:11:33,945 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 14:11:33,946 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1153 ms
+2022-12-08 14:11:34,193 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 14:11:34,233 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 14:11:34,366 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 14:11:34,446 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 14:11:35,362 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 14:11:35,390 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 14:11:36,065 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 14:11:36,073 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:11:36,515 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+2022-12-08 14:11:36,516 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:11:36,518 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:11:36,669 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 14:11:36,671 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 14:11:36,682 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 14:11:36,700 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 14:12:19,428 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 17188 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 14:12:19,431 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 14:12:19,955 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 14:12:20,006 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2022-12-08 14:12:20,207 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:12:20,209 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:12:20,238 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 14:12:20,482 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 14:12:20,492 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:12:20,492 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 14:12:20,492 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 14:12:20,625 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 14:12:20,626 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1159 ms
+2022-12-08 14:12:20,875 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 14:12:20,914 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 14:12:21,042 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 14:12:21,121 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 14:12:22,045 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 14:12:22,071 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 14:12:22,734 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 14:12:22,742 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:12:23,172 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+2022-12-08 14:12:23,172 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:12:23,175 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:12:23,324 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 14:12:23,326 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 14:12:23,336 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 14:12:23,353 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 14:35:46,752 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 24928 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 14:35:46,755 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 14:35:47,337 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 14:35:47,392 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2022-12-08 14:35:47,605 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:35:47,606 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 14:35:47,660 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 14:35:47,984 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 14:35:47,999 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 14:35:48,000 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 14:35:48,000 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 14:35:48,197 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 14:35:48,199 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1405 ms
+2022-12-08 14:35:48,456 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 14:35:48,548 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 14:35:48,776 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 14:35:48,920 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 14:35:49,966 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 14:35:50,018 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 14:35:50,889 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 14:35:50,902 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:35:51,414 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+2022-12-08 14:35:51,415 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 14:35:51,417 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 14:35:51,580 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 14:35:51,583 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 14:35:51,597 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 14:35:51,615 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'class path resource [D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 15:46:56,682 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 15952 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 15:46:56,689 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 15:46:57,561 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 15:46:57,637 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2022-12-08 15:46:57,976 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$ef61b7ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 15:46:57,978 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92081fb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 15:46:58,047 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 15:46:58,512 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 15:46:58,531 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 15:46:58,532 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 15:46:58,532 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 15:47:00,451 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 15:47:00,452 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3700 ms
+2022-12-08 15:47:00,896 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 15:47:01,011 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 15:47:01,354 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 15:47:01,566 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 15:47:05,893 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 15:47:05,964 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 15:47:07,426 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 15:47:07,443 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 15:47:08,260 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D://Soni//Wecodee//Learning//Spring_workspace//SchoolFee_GitOne//XSDPath//SchoolFeeService.xsd]' does not exist
+2022-12-08 15:47:08,261 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 15:47:08,265 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 15:47:09,876 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 15:47:09,879 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 15:47:09,899 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 15:47:09,933 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D://Soni//Wecodee//Learning//Spring_workspace//SchoolFee_GitOne//XSDPath//SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D://Soni//Wecodee//Learning//Spring_workspace//SchoolFee_GitOne//XSDPath//SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'class path resource [D://Soni//Wecodee//Learning//Spring_workspace//SchoolFee_GitOne//XSDPath//SchoolFeeService.xsd]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 15:49:13,959 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 11420 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 15:49:13,964 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 15:49:14,789 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 15:49:14,866 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2022-12-08 15:49:15,195 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 15:49:15,197 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 15:49:15,249 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 15:49:15,648 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 15:49:15,662 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 15:49:15,663 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 15:49:15,664 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 15:49:15,861 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 15:49:15,861 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1836 ms
+2022-12-08 15:49:16,219 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 15:49:16,281 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 15:49:16,507 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 15:49:16,641 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 15:49:19,628 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 15:49:19,678 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 15:49:21,273 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 15:49:21,286 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 15:49:22,183 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:SoniWecodeeLearningSpring_workspaceSchoolFee_GitOneXSDPath]' does not exist
+2022-12-08 15:49:22,185 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 15:49:22,189 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 15:49:22,375 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 15:49:22,379 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 15:49:22,398 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 15:49:22,432 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:SoniWecodeeLearningSpring_workspaceSchoolFee_GitOneXSDPath]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'class path resource [D:SoniWecodeeLearningSpring_workspaceSchoolFee_GitOneXSDPath]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'class path resource [D:SoniWecodeeLearningSpring_workspaceSchoolFee_GitOneXSDPath]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 15:58:06,531 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 3488 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 15:58:06,536 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 15:58:07,423 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 15:58:07,508 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2022-12-08 15:58:07,826 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$ef61b7ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 15:58:07,828 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92081fb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 15:58:07,898 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 15:58:08,350 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 15:58:08,372 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 15:58:08,373 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 15:58:08,373 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 15:58:08,635 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 15:58:08,635 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2036 ms
+2022-12-08 15:58:09,055 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 15:58:09,179 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 15:58:09,504 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 15:58:09,703 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 15:58:12,113 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 15:58:12,181 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 15:58:13,804 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 15:58:13,821 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 15:58:14,779 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 15:58:15,271 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8880"]
+2022-12-08 15:58:15,308 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8880 (http) with context path ''
+2022-12-08 15:58:15,320 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Started FcubsSchoolFeeServiceApplication in 9.336 seconds (JVM running for 11.172)
+2022-12-08 15:59:16,778 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8880-exec-1] Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2022-12-08 15:59:16,779 INFO org.springframework.ws.transport.http.MessageDispatcherServlet [http-nio-8880-exec-1] Initializing Servlet 'messageDispatcherServlet'
+2022-12-08 15:59:16,793 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [http-nio-8880-exec-1] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-12-08 15:59:16,825 INFO org.springframework.ws.transport.http.MessageDispatcherServlet [http-nio-8880-exec-1] Completed initialization in 46 ms
+2022-12-08 16:10:33,988 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2022-12-08 16:10:34,610 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(21)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:10:34,611 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(21)-127.0.0.1] Stopping service [Tomcat]
+2022-12-08 16:10:34,626 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(21)-127.0.0.1] Destroying Spring FrameworkServlet 'messageDispatcherServlet'
+2022-12-08 16:10:34,647 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(21)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:10:34,661 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(21)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:10:34,681 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(21)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:10:34,707 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-08 16:10:36,494 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-12-08 16:10:48,964 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 8932 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 16:10:48,969 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 16:10:49,985 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 16:10:50,089 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86 ms. Found 3 JPA repository interfaces.
+2022-12-08 16:10:50,448 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$a2e2a471] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:10:50,449 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$45890c7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:10:50,533 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 16:10:51,034 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 16:10:51,052 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:10:51,054 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 16:10:51,055 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 16:10:51,320 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 16:10:51,320 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2286 ms
+2022-12-08 16:10:51,806 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 16:10:51,914 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 16:10:52,260 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 16:10:52,465 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 16:10:55,587 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 16:10:55,660 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 16:10:57,451 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 16:10:57,470 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:10:58,371 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'ServletContext resource [/D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+2022-12-08 16:10:58,372 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:10:58,376 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 16:10:59,267 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 16:10:59,271 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 16:10:59,295 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 16:10:59,339 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'SchoolFeeService' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Unsatisfied dependency expressed through method 'defaultWsdl11Definition' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'ServletContext resource [/D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication.main(FcubsSchoolFeeServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'SchoolFeeServiceSchema' defined in class path resource [com/wecodee/schoolfee/schoolfeeservice/config/WebServiceConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: xsd 'ServletContext resource [/D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: xsd 'ServletContext resource [/D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath/SchoolFeeService.xsd]' does not exist
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.xml.xsd.SimpleXsdSchema.afterPropertiesSet(SimpleXsdSchema.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 30 common frames omitted
+2022-12-08 16:19:39,216 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 13544 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 16:19:39,221 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 16:19:40,111 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 16:19:40,195 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2022-12-08 16:19:40,538 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$ef61b7ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:19:40,539 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92081fb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:19:40,609 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 16:19:41,055 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8880 (http)
+2022-12-08 16:19:41,075 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:19:41,077 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 16:19:41,077 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 16:19:41,388 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 16:19:41,388 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2102 ms
+2022-12-08 16:19:41,813 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 16:19:41,926 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 16:19:42,260 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 16:19:42,463 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 16:19:45,840 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 16:19:45,910 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 16:19:47,667 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 16:19:47,686 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:19:48,674 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 16:19:49,162 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:19:49,197 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8880 (http) with context path ''
+2022-12-08 16:19:49,209 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Started FcubsSchoolFeeServiceApplication in 10.529 seconds (JVM running for 12.381)
+2022-12-08 16:20:01,197 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8880-exec-2] Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2022-12-08 16:20:01,198 INFO org.springframework.ws.transport.http.MessageDispatcherServlet [http-nio-8880-exec-2] Initializing Servlet 'messageDispatcherServlet'
+2022-12-08 16:20:01,215 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [http-nio-8880-exec-2] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-12-08 16:20:01,242 INFO org.springframework.ws.transport.http.MessageDispatcherServlet [http-nio-8880-exec-2] Completed initialization in 44 ms
+2022-12-08 16:34:13,020 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m26s890ms320µs400ns).
+2022-12-08 16:35:45,897 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2022-12-08 16:35:46,392 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(21)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:35:46,393 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(21)-127.0.0.1] Stopping service [Tomcat]
+2022-12-08 16:35:46,400 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(21)-127.0.0.1] Destroying Spring FrameworkServlet 'messageDispatcherServlet'
+2022-12-08 16:35:46,414 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(21)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:35:46,420 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(21)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8880"]
+2022-12-08 16:35:46,429 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(21)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:35:46,446 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-08 16:35:48,111 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-12-08 16:46:52,275 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests], using SpringBootContextLoader
+2022-12-08 16:46:52,286 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-12-08 16:46:52,287 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests]: FcubsSchoolFeeServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-12-08 16:46:52,536 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication for test class com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests
+2022-12-08 16:46:52,790 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-12-08 16:46:52,836 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@93081b6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cd1e646, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7ba8c737, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1890516e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@15a04efb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16c069df, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2bec854f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31edaa7d, org.springframework.test.context.event.EventPublishingTestExecutionListener@26adfd2d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3336e6b6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7c3fdb62, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@205d38da, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6950ed69, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6dd7b5a3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6f3187b0]
+2022-12-08 16:46:53,455 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests [main] Starting FcubsSchoolFeeServiceApplicationTests using Java 1.8.0_211 on wecodee with PID 13748 (started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 16:46:53,456 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 16:46:54,646 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 16:46:54,758 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 94 ms. Found 3 JPA repository interfaces.
+2022-12-08 16:46:55,234 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$192c1688] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:46:55,235 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bbd27e91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:46:55,326 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 16:46:56,030 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 16:46:56,137 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 16:46:56,465 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 16:46:57,056 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 16:47:00,602 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 16:47:00,717 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 16:47:02,760 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 16:47:02,779 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:47:03,891 INFO org.springframework.ws.config.annotation.WsConfigurerAdapter [main] D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath
+2022-12-08 16:47:04,375 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 16:47:05,393 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplicationTests [main] Started FcubsSchoolFeeServiceApplicationTests in 12.464 seconds (JVM running for 14.423)
+2022-12-08 16:47:05,642 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:47:05,646 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-12-08 16:47:05,961 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-12-08 16:47:53,494 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 22148 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 16:47:53,500 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 16:47:54,337 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 16:47:54,426 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces.
+2022-12-08 16:47:54,748 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$518d1d74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:47:54,750 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f433857d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:47:54,808 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 16:47:55,222 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-12-08 16:47:55,243 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-08 16:47:55,244 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 16:47:55,245 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 16:47:55,628 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 16:47:55,629 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2063 ms
+2022-12-08 16:47:56,099 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 16:47:56,162 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 16:47:56,390 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 16:47:56,532 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 16:47:59,696 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 16:47:59,744 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 16:48:01,381 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 16:48:01,403 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:48:02,225 INFO org.springframework.ws.config.annotation.WsConfigurerAdapter [main] D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath
+2022-12-08 16:48:02,383 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 16:48:02,855 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-12-08 16:48:02,865 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-12-08 16:48:02,868 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:48:02,870 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-12-08 16:48:04,358 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-12-08 16:48:04,360 INFO org.apache.coyote.http11.Http11NioProtocol [main] Pausing ProtocolHandler ["http-nio-8080"]
+2022-12-08 16:48:04,361 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-12-08 16:48:04,368 INFO org.apache.coyote.http11.Http11NioProtocol [main] Stopping ProtocolHandler ["http-nio-8080"]
+2022-12-08 16:48:04,369 INFO org.apache.coyote.http11.Http11NioProtocol [main] Destroying ProtocolHandler ["http-nio-8080"]
+2022-12-08 16:48:04,380 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 16:48:04,409 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-12-08 16:49:38,169 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Starting FcubsSchoolFeeServiceApplication using Java 1.8.0_211 on wecodee with PID 25000 (D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService\target\classes started by Tinku in D:\Soni\Wecodee\Learning\Spring_workspace\SchoolFee_GitOne\FCUBSSchoolFeeService)
+2022-12-08 16:49:38,175 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-08 16:49:39,046 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 16:49:39,130 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2022-12-08 16:49:39,471 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'webServiceConfig' of type [com.wecodee.schoolfee.schoolfeeservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$ef61b7ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:49:39,472 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92081fb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-08 16:49:39,545 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-08 16:49:40,003 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2022-12-08 16:49:40,021 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-08 16:49:40,023 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-08 16:49:40,023 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-08 16:49:40,293 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-08 16:49:40,294 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2058 ms
+2022-12-08 16:49:40,706 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 16:49:40,812 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-08 16:49:41,113 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 16:49:41,312 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-08 16:49:44,756 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-08 16:49:44,824 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-08 16:49:46,813 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 16:49:46,834 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:49:47,691 INFO org.springframework.ws.config.annotation.WsConfigurerAdapter [main] D:/Soni/Wecodee/Learning/Spring_workspace/SchoolFee_GitOne/XSDPath
+2022-12-08 16:49:47,893 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 16:49:48,417 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8888"]
+2022-12-08 16:49:48,452 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-08 16:49:48,464 INFO com.wecodee.schoolfee.schoolfeeservice.FcubsSchoolFeeServiceApplication [main] Started FcubsSchoolFeeServiceApplication in 10.827 seconds (JVM running for 12.488)
+2022-12-08 17:19:51,124 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m36s157ms319µs500ns).
+2022-12-08 17:22:52,911 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(22)-127.0.0.1] Application shutdown requested.
+2022-12-08 17:22:53,350 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(22)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8888"]
+2022-12-08 17:22:53,350 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(22)-127.0.0.1] Stopping service [Tomcat]
+2022-12-08 17:22:53,367 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(22)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8888"]
+2022-12-08 17:22:53,373 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(22)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8888"]
+2022-12-08 17:22:53,385 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(22)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 17:22:53,399 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-08 17:22:53,668 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown completed.

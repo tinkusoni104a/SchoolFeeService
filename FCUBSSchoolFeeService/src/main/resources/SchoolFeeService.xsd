@@ -1,0 +1,133 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://webservice.wecodee.com/schoolfeeservice"
+	targetNamespace="http://webservice.wecodee.com/schoolfeeservice"
+	elementFormDefault="qualified">
+
+	<xs:complexType name="header">
+		<xs:sequence>
+			<xs:element name="SOURCE" type="xs:string" />
+			<xs:element name="UBSCOMP" type="xs:string" />
+			<xs:element name="USERID" type="xs:string" />
+			<xs:element name="BRANCH" type="xs:string" />
+			<xs:element name="SERVICE" type="xs:string" />
+			<xs:element name="OPERATION" type="xs:string" />
+			<xs:element name="MSGSTAT" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="QueryByPhoneNoBody">
+		<xs:sequence>
+			<xs:element name="PHONE_NO" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="SchoolFeeDetailsRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="header" type="tns:header" minOccurs="1" />
+				<xs:element name="QueryByPhoneNoBody"
+					type="tns:QueryByPhoneNoBody" minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="SchoolFeeDetailsResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="header" type="tns:header" minOccurs="1" />
+				<xs:element name="SchoolFeeDetailsBody"
+					type="tns:SchoolFeeDetailsBody" minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:element name="QueryByStudentDetailsRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="header" type="tns:header" minOccurs="1" />
+				<xs:element name="QueryByStudentDetailsBody"
+					type="tns:QueryByStudentDetailsBody" minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:complexType name="QueryByStudentDetailsBody">
+		<xs:sequence>
+			<xs:element name="STUDENT_NUMBER" type="xs:string" />
+			<xs:element name="ST_GRADE" type="xs:string" />
+			<xs:element name="CAMPUS_ID" type="xs:string" />
+			<xs:element name="INSTITUTION_ID" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="QueryByStudentIdRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="header" type="tns:header" minOccurs="1" />
+				<xs:element name="QueryByStudentIdBody"
+					type="tns:QueryByStudentIdBody" minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:complexType name="QueryByStudentIdBody">
+		<xs:sequence>
+			<xs:element name="STUDENT_ID" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="StudentDetails">
+		<xs:sequence>
+			<xs:element name="STUDENT_ID" type="xs:string" />
+			<xs:element name="STUDENT_NUMBER" type="xs:string" />
+			<xs:element name="STUDENT_NAME" type="xs:string" />
+			<xs:element name="ST_GRADE" type="xs:string" />
+			<xs:element name="ST_SECTION" type="xs:string" />
+			<xs:element name="ST_CATEGORY" type="xs:string" />
+			<xs:element name="PHONE_NO" type="xs:string" />
+			<xs:element name="CAMPUS_ID" type="xs:string" />
+			<xs:element name="INSTITUTION_ID" type="xs:string" />
+			<xs:element name="FeePaymentDetails"
+				type="tns:FeePaymentDetails" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="SchoolFeeDetailsBody">
+		<xs:sequence>
+			<xs:element name="StudentDetails"
+				type="tns:StudentDetails" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="FeePaymentDetails">
+		<xs:sequence>
+			<xs:element name="PAYMENT_REF_NO" type="xs:string" />
+			<xs:element name="PAYMENT_CYCLE" type="xs:string" />
+			<xs:element name="FIRST_DUE_DT" type="xs:date" />
+			<xs:element name="NO_OF_PAYMENTS" type="xs:integer" />
+			<xs:element name="TOTAL_FEE_AMOUNT" type="xs:double" />
+			<xs:element name="DISCOUNTED_AMOUNT" type="xs:double" />
+			<xs:element name="TOTAL_EFF_FEE_AMT" type="xs:double" />
+			<xs:element name="PaymentScheduleDetails"
+				type="tns:PaymentScheduleDetails" minOccurs="0"
+				maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="PaymentScheduleDetails">
+		<xs:sequence>
+			<xs:element name="PAYMENT_TYPE" type="xs:string" />
+			<xs:element name="PAYMENT_DUE_DT" type="xs:date" />
+			<xs:element name="FEE_AMOUNT" type="xs:double" />
+			<xs:element name="PENALTY_AMOUNT" type="xs:double" />
+			<xs:element name="TOTAL_DUE_AMOUNT" type="xs:double" />
+			<xs:element name="DISCOUNTED_AMT" type="xs:double" />
+			<xs:element name="PAYMENT_STATUS" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>
