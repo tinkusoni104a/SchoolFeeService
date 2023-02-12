@@ -11,10 +11,14 @@ import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 import com.wecodee.schoolfee.schoolfeeservice.constant.SchoolFeeServiceConstant;
+import com.wecodee.schoolfee.schoolfeeservice.model.Campus;
 import com.wecodee.schoolfee.schoolfeeservice.model.StudentPaySchedules;
 import com.wecodee.schoolfee.schoolfeeservice.model.StudentPaymentMaster;
 import com.wecodee.schoolfee.schoolfeeservice.model.StudentRegMaster;
+import com.wecodee.schoolfee.schoolfeeservice.model.ids.CampusId;
 import com.wecodee.schoolfee.schoolfeeservice.model.ids.StudentRegMasterId;
+import com.wecodee.schoolfee.schoolfeeservice.repository.CampusRepository;
+import com.wecodee.schoolfee.schoolfeeservice.repository.InstituteRepository;
 import com.wecodee.schoolfee.schoolfeeservice.repository.StudentPaySchedulesRepository;
 import com.wecodee.schoolfee.schoolfeeservice.repository.StudentPaymentMasterRepository;
 import com.wecodee.schoolfee.schoolfeeservice.repository.StudentRegMasterRespository;
@@ -38,6 +42,11 @@ public class SchoolFeeServiceEndpoint {
 	private StudentPaymentMasterRepository studentPaymentMasterRepository;
 	@Autowired
 	private StudentPaySchedulesRepository studentPaySchedulesRepository;
+
+	@Autowired
+	private InstituteRepository instituteRepository;
+	@Autowired
+	private CampusRepository campusRepository;
 	@Autowired
 	private Utils utils;
 
@@ -129,7 +138,7 @@ public class SchoolFeeServiceEndpoint {
 	@PayloadRoot(namespace = SchoolFeeServiceConstant.NAMESPACE_URI, localPart = "QueryByStudentIdRequest")
 	@ResponsePayload
 	public SchoolFeeDetailsResponse QueryByStudentIdRequest(@RequestPayload QueryByStudentIdRequest request) {
-		System.out.println("in querySchoolFeeForOthers");
+		System.out.println("in QueryByStudentIdRequest");
 		SchoolFeeDetailsResponse response = new SchoolFeeDetailsResponse();
 		SchoolFeeDetailsBody schoolFeeDetailsBody = new SchoolFeeDetailsBody();
 		StudentRegMaster studentRegMaster = new StudentRegMaster();
@@ -166,6 +175,9 @@ public class SchoolFeeServiceEndpoint {
 
 	private StudentDetails buildStudentDetails(StudentRegMaster studentRegMaster) {
 		StudentDetails studentDetails = new StudentDetails();
+		Campus campus = new Campus();
+
+//		Institute institute = new Institute();
 		try {
 			log.info("In buildResponse..");
 
@@ -178,6 +190,17 @@ public class SchoolFeeServiceEndpoint {
 			studentDetails.setSTUDENTID(studentRegMaster.getStudentId());
 			studentDetails.setSTUDENTNAME(studentRegMaster.getStudentName());
 			studentDetails.setSTUDENTNUMBER(studentRegMaster.getStudentRegMasterId().getStudentNumber());
+
+			studentDetails.setPARTIALPAYMENT(instituteRepository
+					.findByInstId(studentRegMaster.getStudentRegMasterId().getInstitutionId()).getPartialPayment());
+
+			CampusId campusId = new CampusId(studentRegMaster.getStudentRegMasterId().getCampusId(),
+					studentRegMaster.getStudentRegMasterId().getInstitutionId());
+
+			campus = campusRepository.findById(campusId).get();
+
+			studentDetails.setCAMPUSACBRANCH(campus.getAcBranch());
+			studentDetails.setCAMPUSACNO(campus.getAcNo());
 
 			List<StudentPaymentMaster> studentPaymentMasterList = studentPaymentMasterRepository
 					.findByStudentId(studentRegMaster.getStudentId());

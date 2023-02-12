@@ -89,7 +89,14 @@
 			<xs:element name="ST_CATEGORY" type="xs:string" />
 			<xs:element name="PHONE_NO" type="xs:string" />
 			<xs:element name="CAMPUS_ID" type="xs:string" />
+			<!-- Changes start -->
+			<xs:element name="CAMPUS_AC_BRANCH" type="xs:string" />
+			<xs:element name="CAMPUS_AC_NO" type="xs:string" />
+			<!-- Changes end -->
 			<xs:element name="INSTITUTION_ID" type="xs:string" />
+			<!-- Changes start -->
+			<xs:element name="PARTIAL_PAYMENT" type="xs:string" />
+			<!-- Changes end -->
 			<xs:element name="FeePaymentDetails"
 				type="tns:FeePaymentDetails" minOccurs="0" maxOccurs="unbounded" />
 		</xs:sequence>
